@@ -655,14 +655,25 @@
                         <div class="spell-info"><b><i class="fas fa-vector-square"></i> Область:</b> <span>10-футовая эманация</span></div>
                         <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Стойкость</span></div>
                         <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы вызываете порыв ветра, чтобы сбить с толку ваших врагов. Штормовой взрыв наносит 1d6 урона звуком всем существам в области. Если существо проваливает спасбросок Стойкости, вы также можете Оттолкнуть (Shove) его от себя, используя результат спасброска существа для определения вашего успеха.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Ветер струится из ваших вытянутых рук и кружится вокруг вас в 5-футовой эманации. Каждое существо в этой области получает дробящий урон, равный вашему модификатору характеристики колдовства, со спасброском Стойкости.<i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+                                 </div>
+                            <div class="spell-effect">
+                            <b>Критический успех:</b> Существо невредимо<br>
+                            <b>Успех:</b> Существо получает половину урона<br>
+                            <b>Провал:</b> Существо получает полный урон и отталкивается от вас на 5 футов<br>
+                            <b>Критический провал:</b> Существо получает двойной урон и отталкивается от вас на 10 футов<br>
+
+                        </div>
                         <div class="divider"></div>
-                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон звуком увеличивается на 1d6.</span></div>
+                        
+                        <div class="enhancement">
+                            <b><i class="fas fa-level-up-alt"></i> Усиление (+2):</b> <span>Урон увеличивается на 1d6.</span></div>
                     </div>
                 </div>
             </div>
 
             <!-- Раздирающий коготь -->
+            <!-- Раздирающий коготь (Gouging Claw) — новое заклинание 1 уровня -->
             <div class="spell-card">
                 <div class="spell-header" onclick="toggleSpell(this)">
                     <div class="spell-title">
@@ -671,30 +682,42 @@
                             <i class="fas fa-check"></i>
                         </div>
                     </div>
-                    <div class="spell-focus">Чары</div>
+                    <div class="spell-focus">Чары 1</div>
                 </div>
-                <div class="spell-description">Трансформирует вашу конечность в коготь и атакует им.</div>
+                <div class="spell-description">Вы временно трансформируете свою конечность в когтистый отросток, нанося глубокие раны.</div>
                 <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div><div class="tag"><i class="fas fa-paw"></i> Метаморф</div></div>
+                    <div class="spell-tags">
+                        <div class="tag"><i class="fas fa-bolt"></i>Атака</div>
+                        <div class="tag"><i class="fas fa-dragon"></i>Трансмутация</div>
+                        <div class="tag"><i class="fas fa-exchange-alt"></i>Трансформация</div>
+                    </div>
                     <div class="spell-details">
                         <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
                         <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
                         <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
-                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b><span>1 существо</span></div>
                         <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Ваша конечность или кулак превращается в коготь, покрытый железом или камнем, которым вы проводите быструю атаку. Совершите атаку заклинанием ближнего боя против цели. При попадании вы наносите 1d6+4 рубящего урона плюс 1d4 продолжительного кровотечения. При критическом попадании, вместо этого наносите двойной урон и 2d4 продолжительного кровотечения.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        
+                        <div class="spell-effect">
+                            <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                            Вы временно трансформируете свою конечность в когтистый отросток. Совершите бросок атаки заклинанием в ближнем бою против КБ вашей цели. При попадании вы наносите 1d6 + модификатор характеристики колдовства рубящего или колющего урона, по своему выбору. При критическом попадании, вы наносите двойной урон + 1d4 продолжительного урона кровотечением.
+                            <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+                        </div>
                         <div class="divider"></div>
-                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Начальный рубящий урон увеличивается на 1d6, а продолжительное кровотечение на 1d4.</span></div>
+                        <div class="enhancement">
+                            <b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон увеличивается на 1d6, а продолжительный урон кровотечением при критическом попадании увеличивается на 1d4.</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Исцеляющий гипс -->
+
             <div class="spell-card">
                 <div class="spell-header" onclick="toggleSpell(this)">
                     <div class="spell-title">
-                        <i class="spell-icon fas fa-band-aid"></i> Исцеляющий гипс
-                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                        <i class="spell-icon fas fa-paw"></i> Исцеляющий гипс
+                       <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
                             <i class="fas fa-check"></i>
                         </div>
                     </div>
@@ -702,11 +725,11 @@
                 </div>
                 <div class="spell-description">Превращает грязь в исцеляющий гипс для лечения ран без набора лекаря.</div>
                 <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div><div class="tag"><i class="fas fa-heart"></i> Исцеление</div></div>
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div><div class="tag"><i class="fas fa-heart"></i> Земля</div></div>
                     <div class="spell-details">
                         <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>природный</span></div>
-                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
-                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>5 футов</span></div>
                         <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 кусок грязи или глины легкой Массы</span></div>
                         <div class="divider"></div>
                         <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы превращаете грязь или глину в гипс, пасту или мазь, которую можно наносить на раны. При нанесении на рану (действие Взаимодействовать), гипс прилипает к ране и исцеляет 1d8 ОЗ за 2 раунда. Каждое существо может быть исцелено заклинанием исцеляющий гипс только раз в 10 минут.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
@@ -716,196 +739,442 @@
                 </div>
             </div>
 
-            <!-- Дуновение яда -->
-            <div class="spell-card">
-                <div class="spell-header" onclick="toggleSpell(this)">
-                    <div class="spell-title">
-                        <i class="spell-icon fas fa-lungs"></i> Дуновение яда
-                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+    <div class="spells-container">
+    <div class="spell-card">
+        <div class="spell-header" onclick="toggleSpell(this)">
+            <div class="spell-title">
+                <i class="spell-icon fas fa-shield-alt"></i> Защитить компаньона
+                       <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
                             <i class="fas fa-check"></i>
                         </div>
-                    </div>
-                    <div class="spell-focus">Чары</div>
+            </div>
+            <div class="spell-focus">Чары</div>
+        </div>
+        
+        <div class="spell-description">
+            Защищает от вреда вашего миньона или эйдолона.
+        </div>
+        
+        <div class="spell-expandable">
+            <div class="spell-tags">
+                <div class="tag"><i class="fas fa-shield-virus"></i> Преграждение</div>
+            </div>
+            
+            <div class="spell-details">
+                <div class="spell-info">
+                    <b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный, природный</span>
                 </div>
-                <div class="spell-description">Выдыхает токсины, чтобы отравить противника.</div>
-                <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-skull"></i> Яд</div></div>
-                    <div class="spell-details">
-                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
-                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
-                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>15 футов</span></div>
-                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
-                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Стойкость</span></div>
-                        <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы выдыхаете маленькое облако ядовитого газа в лицо цели. Цель получает 1d4 яда урона и должна совершить спасбросок Стойкости. При провале она также получает состояние отравлен 1.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
-                        <div class="divider"></div>
-                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Начальный яд урон увеличивается на 1d4, а состояние отравлен увеличивается на 1.</span></div>
+                
+                    <div class="spell-info">
+                        <b><i class="fas fa-magic"></i> Сотворение:</b> 
+                        <span class="components-row">
+                            <span class="arrow-block" style="width: 42px;">▶</span>
+                            <span class="component" style="margin-top: 5px;">
+                                <i class="fas fa-comment"></i> словесный
+                            </span>
+                        </span>
                     </div>
+                
+                <div class="spell-info">
+                    <b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span>
+                </div>
+                
+                <div class="spell-info">
+                    <b><i class="fas fa-bullseye"></i> Цели:</b> <span>ваш эйдолон, или существо с признаком миньон под вашим контролем</span>
+                </div>
+                
+                <div class="spell-info">
+                    <b><i class="fas fa-clock"></i> Продолжительность:</b> <span>до начала вашего следующего хода</span>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <div class="spell-effect">
+                    <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                    Вы расширяете свою ауру как магический щит, защищающий вашего эйдолона или миньона. До начала вашего следующего хода цель получает бонус обстоятельства +1 к КБ. Вы получаете следующую реакцию; после использования этой реакции, заклинание заканчивается, а вы 10 минут не можете снова сотворять защитить компаньона.
+                    <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+                </div>
+                
+                <div class="reaction-block">
+                    <div class="reaction-header">
+                        <i class="reaction-icon fas fa-exchange-alt"></i> Жизненный блок ↩
+                    </div>
+                    
+                    <div class="reaction-trigger">
+                        <span class="highlight">Триггер:</span> 
+                           <span style="font-size: 14px;">Цель заклинания получит урон
+                    </div>
+                    
+                    <div class="reaction-effect">
+                        <span class="highlight">Эффект:</span> 
+                        <span style="font-size: 14px;">Снизьте спровоцировавший урон на 10, но вы теряете 5 ОЗ. Даже если это снижает урон до 0, цель все еще получает любые эффекты от урона, как например яд от Удара клыками гадюки.
+                    </div>
+                    </div>
+                
+                <div class="divider"></div>
+                
+                <div class="enhancement">
+                    <b><i class="fas fa-level-up-alt"></i> Усиление (+2):</b> <span>Реакция снижает урон еще на 10, и вы теряете еще на 5 ОЗ больше. Если вы хотите потерять меньше ОЗ, то можете уменьшить снижение урона и потерю ОЗ до значений любой низкоуровневой версии этого заклинания, но не уменьшая реальный уровень заклинания.</span>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!-- Рассеять щебень -->
-            <div class="spell-card">
-                <div class="spell-header" onclick="toggleSpell(this)">
-                    <div class="spell-title">
-                        <i class="spell-icon fas fa-mountain"></i> Рассеять щебень
-                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    <div class="spell-focus">Чары</div>
-                </div>
-                <div class="spell-description">Создает камни, чтобы нанести дробящий урон и сделать каменистую сложную местность.</div>
-                <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-mountain"></i> Земля</div></div>
-                    <div class="spell-details">
-                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
-                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
-                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
-                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Область:</b> <span>1 куб 5 футов</span></div>
-                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>простой Рефлекс</span></div>
-                        <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы вызываете камни, заполняющие выбранную область. Все существа в области получают 1d4 дробящего урона и должны совершить спасбросок Рефлекса. При провале они также получают состояние отвлечен 1. Область становится каменистой сложной местностью. Камни исчезают, когда заклинание заканчивается.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
-                        <div class="divider"></div>
-                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон увеличивается на 1d4.</span></div>
-                    </div>
-                </div>
+<!-- Дуновение яда -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-lungs"></i> Дуновение яда
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
             </div>
-
-            <!-- Столб воды -->
-            <div class="spell-card">
-                <div class="spell-header" onclick="toggleSpell(this)">
-                    <div class="spell-title">
-                        <i class="spell-icon fas fa-water"></i> Столб воды
-                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    <div class="spell-focus">Чары</div>
-                </div>
-                <div class="spell-description">Бьет существ водным взрывом, который становится больше если сотворять его в водоеме.</div>
-                <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-tint"></i> Вода</div></div>
-                    <div class="spell-details">
-                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
-                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
-                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
-                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
-                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Рефлекс</span></div>
-                        <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы заставляете воду вырваться вверх, поражая существо. Столб воды наносит 1d8 дробящего урона. Если цель стоит в воде или на снегу, льду, урон увеличивается до 1d12.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
-                        <div class="divider"></div>
-                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон увеличивается на 1d8 (или 1d12, если цель стоит в воде).</span></div>
-                    </div>
-                </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Вы выдыхаете в лицо врага мерцающее облако токсичного дыхания.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i>Эвокация</div><div class="tag"><i class="fas fa-skull"></i>Вдыхаемый</div><div class="tag"><i class="fas fa-skull"></i>Яд</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>5 футов</span></div>
+            <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+            <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Защита:</b> <span>Стойкость</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Вы выдыхаете в лицо врага мерцающее облако токсичного дыхания. Цель получает урон ядом, равный вашему модификатору характеристики колдовства и 2 продолжительного урона ядом, в зависимости от своего спасброска Стойкости.
             </div>
-
-            <!-- Приручение -->
-            <div class="spell-card">
-                <div class="spell-header" onclick="toggleSpell(this)">
-                    <div class="spell-title">
-                        <i class="spell-icon fas fa-horse-head"></i> Приручение
-                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    <div class="spell-focus">Чары</div>
-                </div>
-                <div class="spell-description">Одомашненное животное становится к вам более дружелюбным.</div>
-                <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-heart"></i> Очарование</div><div class="tag"><i class="fas fa-brain"></i> Ментальный</div></div>
-                    <div class="spell-details">
-                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>природный</span></div>
-                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
-                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>10 футов</span></div>
-                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 одомашненное животное</span></div>
-                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 час</span></div>
-                        <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы успокаиваете одомашненное животное и делаете его дружелюбным к вам. Оно не будет атаковать вас или ваших союзников, и вы получаете бонус состояния +2 к проверкам Обращения с животными и Дипломатии в общении с целью. Это заклинание действует только на существ с признаком животное, которые одомашнены (например, собаки, лошади, коровы, но не медведи или волки).<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
-                    </div>
-                </div>
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                <b>Критический успех:</b> Цель невредима<br>
+                <b>Успех:</b> Цель получает половину изначального и продолжительного урона<br>
+                <b>Провал:</b> Цель получает полный изначальный и продолжительный урон<br>
+                <b>Критический провал:</b> Цель получает удвоенный изначальный и продолжительный урон
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
             </div>
-
-            <!-- Призыв истинного имени -->
-            <div class="spell-card">
-                <div class="spell-header" onclick="toggleSpell(this)">
-                    <div class="spell-title">
-                        <i class="spell-icon fas fa-scroll"></i> Призыв истинного имени
-                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    <div class="spell-focus">Чары</div>
-                </div>
-                <div class="spell-description">Знание истинного имени существа делает его уязвимее для вашей магии.</div>
-                <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-star"></i> Необычный</div><div class="tag"><i class="fas fa-heart"></i> Очарование</div><div class="tag"><i class="fas fa-brain"></i> Ментальный</div></div>
-                    <div class="spell-details">
-                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный</span></div>
-                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
-                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
-                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо, чье истинное имя вы знаете</span></div>
-                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
-                        <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы называете истинное имя существа, усиливающее действие вашей магии на него. Цель получает штраф состояния -1 к спасброскам против ваших заклинаний и эффектов. Если заклинание требует спасброска для частичного эффекта, штраф не применяется к эффекту при успешном спасброске. Дополнительно, цель не может использовать эффекты, которые бы автоматически повышали степень успеха ее спасброска против ваших заклинаний (например, из-за умения чемпиона).<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
-                        <div class="divider"></div>
-                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (3-й):</b> <span>Штраф состояния увеличивается до -2.</span></div>
-                    </div>
-                </div>
+            
+            <div class="divider"></div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (+2):</b> <span>Изначальный урон ядом увеличивается на 1d8, а продолжительный урон ядом на 1.</span>
             </div>
+        </div>
+    </div>
+</div>
 
-            <!-- Кислотный всплеск -->
-            <div class="spell-card">
-                <div class="spell-header" onclick="toggleSpell(this)">
-                    <div class="spell-title">
-                        <i class="spell-icon fas fa-flask"></i> Кислотный всплеск
-                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    <div class="spell-focus">Чары</div>
-                </div>
-                <div class="spell-description">Наносит существам урон кислотой.</div>
-                <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-flask"></i> Кислота</div></div>
-                    <div class="spell-details">
-                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
-                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
-                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
-                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
-                        <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы брызгаете кислотой на цель. Совершите дистанционную атаку заклинанием против цели. При попадании вы наносите 1d6 кислотного урона и 1 продолжительного кислотного урона. При критическом попадании цель получает двойной урон и 2 продолжительного кислотного урона.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
-                        <div class="divider"></div>
-                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Начальный кислотный урон увеличивается на 1d6, а продолжительный кислотный урон на 1.</span></div>
-                    </div>
-                </div>
+<!-- Рассеять щебень -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-mountain"></i> Рассеять щебень
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
             </div>
-
-            <!-- Пляшущие огоньки -->
-            <div class="spell-card">
-                <div class="spell-header" onclick="toggleSpell(this)">
-                    <div class="spell-title">
-                        <i class="spell-icon fas fa-lightbulb"></i> Пляшущие огоньки
-                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    <div class="spell-focus">Чары</div>
-                </div>
-                <div class="spell-description">Создает 4 парящих огонька, которые вы можете перемещать.</div>
-                <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-lightbulb"></i> Свет</div></div>
-                    <div class="spell-details">
-                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный, природный</span></div>
-                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
-                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>120 футов</span></div>
-                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>поддерживаемое</span></div>
-                        <div class="divider"></div>
-                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы создаете до четырех парящих огоньков, похожих на фонари или призрачные шары. Каждый огонек излучает яркий свет в 20-футовом радиусе (и тусклый свет на следующие 20 футов). Каждый раз, когда вы Поддерживаете заклинание, вы можете передвинуть один огонек на расстояние до 60 футов. Огонек должен оставаться в пределах 120 футов от вас, иначе он гаснет. Огоньки можно сделать разного цвета, но их нельзя использовать как заклинание Свет (Light).<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
-                    </div>
-                </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Вы воплощаете в области груду камней.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i>Эвокация</div><div class="tag"><i class="fas fa-mountain"></i>Земля</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+            <div class="spell-info"><b><i class="fas fa-bullseye"></i> Область:</b> <span>2 соприкасающихся 5-футовых куба</span></div>
+            <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Защита:</b> <span>простой Рефлекс</span></div>
+            <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Вы воплощаете в области груду камней. Рассеянные камни наносят существам в области дробящий урон, равный 1d4 + модификатор характеристики колдовства, с простым спасброском Рефлекса. На время продолжительности заклинания, земля в области становится сложной местностью. Существо может Взаимодействовать (Interact) , чтобы расчистить квадрат от щебня.
+                <br><br>
+                Если вы снова сотворяете это заклинание, то любое действующее рассеивание щебня, сотворенное вами ранее, заканчивается.
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
             </div>
+            
+            <div class="divider"></div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон увеличивается на 1d4.</span>
+            </div>
+        </div>
+    </div>
+</div>
 
+
+<!-- Столб воды -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-water"></i> Столб воды
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
+            </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Вода устремляется вверх, вырываясь из под земли, поднимаясь из водоема или даже проявляется из воздуха.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i>Эвокация</div><div class="tag"><i class="fas fa-tint"></i>Вода</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+            <div class="spell-info"><b><i class="fas fa-bullseye"></i> Область:</b> <span>5-футовый куб</span></div>
+            <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Защита:</b> <span>Рефлекс</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Вода устремляется вверх, вырываясь из под земли, поднимаясь из водоема или даже проявляется из воздуха. Любые существа в области получают дробящий урон, равный 1d4 + ваш модификатор характеристики колдовства, с простым спасброском Рефлекса.
+                <br><br>
+                Вы можете изменить область действия этого заклинания на 5-футовый взрыв, при условии, что его центр находится в водоеме. Этот водоем может быть небольшим, как пруд или ручей, но не таким маленьким как лужа или ванна.
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон увеличивается на 1d4.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Приручение -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-horse-head"></i> Приручение
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
+            </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Издавая успокаивающие звуки и жесты, вы дружелюбно приближаетесь к цели, сочетая осторожность и уверенность.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-heart"></i>Очарование</div><div class="tag"><i class="fas fa-ear-listen"></i>Слуховой</div><div class="tag"><i class="fas fa-brain"></i>Ментальный</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>оккультный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>10 футов</span></div>
+            <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 не-враждебное домашнее животное</span></div>
+            <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Защита:</b> <span>Воля</span></div>
+            <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Издавая успокаивающие звуки и жесты, вы дружелюбно приближаетесь к цели, сочетая осторожность и уверенность. Вы улучшаете отношение цели к вам на 1 ступень (недружественный ➞ безразличный ➞ дружественный ➞ любезный) на время действия заклинания, если только она не совершит успешный спасбросок Воли. После этого цель временно иммунна на 1 день.
+                <br><br>
+                Заклинание работает только на одомашненных животных; например, вы можете использовать его на сторожевым псах или бродячих псах, но не на одичавших собаках или волках. Если социализация животного находится под вопросом, то решение остается за Мастером.
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (3-й):</b> <span>Продолжительность становится 10 минут.</span>
+            </div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (6-й):</b> <span>Продолжительность становится 1 час.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Призыв истинного имени -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-scroll"></i> Призыв истинного имени
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
+            </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Вы произносите истинное имя существа, чтобы более уверенно воздействовать на него своей магией.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-star"></i>Редкий</div><div class="tag"><i class="fas fa-scroll"></i>Истинное имя</div><div class="tag"><i class="fas fa-heart"></i>Очарование</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+            <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо, истинное имя которого вам известно</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Вы произносите истинное имя существа, чтобы более уверенно воздействовать на него своей магией. До конца этого хода, цель застигнута врасплох против ваших заклинаний и получает штраф обстоятельства -2 к спасброскам против ваших заклинаний. Кроме того, когда первый раз за этот ход цель получает урон от одного из ваших заклинаний, она обладает слабостью к этому урону, равной двойному уровню заклинания призыв истинного имени.
+                <br><br>
+                Правила: Это относится к специфичным правилам - Истинные имена.
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Кислотный всплеск -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-flask"></i> Кислотный всплеск
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
+            </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Вы выплескиваете каплю кислоты, которая разбрызгивается на вашу цель и существ поблизости.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i>Эвокация</div><div class="tag"><i class="fas fa-crosshairs"></i>Атака</div><div class="tag"><i class="fas fa-flask"></i>Кислота</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+            <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Вы выплескиваете каплю кислоты, которая разбрызгивается на вашу цель и существ поблизости. Совершите атаку заклинанием. Если вы попадаете, то наносите 1d6 кислотного урона, плюс 1 урона кислотными брызгами. При критическом успехе, цель еще получает 1 продолжительного урона кислотой.
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (3-й):</b> <span>Начальный урон увеличивается до 1d6 + ваш модификатор характеристики колдовства, а продолжительный урон увеличивается до 2.</span>
+            </div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (5-й):</b> <span>Начальный урон увеличивается до 2d6 + ваш модификатор характеристики колдовства, продолжительный урон увеличивается до 3, урон брызгами увеличивается до 2.</span>
+            </div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (7-й):</b> <span>Начальный урон увеличивается до 3d6 + ваш модификатор характеристики колдовства, продолжительный урон увеличивается до 4, урон брызгами увеличивается до 3.</span>
+            </div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (9-й):</b> <span>Начальный урон увеличивается до 4d6 + ваш модификатор характеристики колдовства, продолжительный урон увеличивается до 5, урон брызгами увеличивается до 4.</span>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- Пляшущие огоньки -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-lightbulb"></i> Пляшущие огоньки
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
+            </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Вы создаете вплоть до 4 парящих огней.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i>Эвокация</div><div class="tag"><i class="fas fa-lightbulb"></i>Свет</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, оккультный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>120 футов</span></div>
+            <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>поддерживаемое</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Вы создаете вплоть до 4 парящих огней, так, что ни один из которых не находится более чем в 10 футах друг от друга. Каждый из них светится, как факел. Когда вы делаете Поддержание заклинания (Sustain a Spell) , то можете перемещать любое количество огней на расстояние вплоть до 60 футов. Каждый огонек должен оставаться в пределах 120 футов от вас и в пределах 10 футов от всех остальных, иначе он погаснет.
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Обнаружение магии -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-search"></i> Обнаружение магии
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
+            </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Вы посылаете импульс, который обнаруживает присутствие магии.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-eye"></i>Прорицание</div><div class="tag"><i class="fas fa-search"></i>Обнаружение</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-vector-square"></i> Область:</b> <span>30-футовая эманация</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Вы посылаете импульс, который обнаруживает присутствие магии. Вы не получаете никакой информации, кроме наличия или отсутствия магии. Вы можете игнорировать магию, о которой вы полностью осведомлены, например, магические предметы и заклинания действующие на вас и ваших союзников.
+                <br><br>
+                Вы обнаруживаете магию иллюзии, только если эффект этой магии имеет уровень ниже (строго) уровня вашего заклинания обнаружение магии. Однако предметы имеющие иллюзорную ауру, но не обманчивые по внешнему виду (как например Зелье невидимости (Invisibility Potion) / Предмет 4), обычно обнаруживаются нормально.
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (3-й):</b> <span>Вы определяете школу магии (см. Школы магии (Magical Schools)) для эффекта самого высокого уровня в пределах дистанции обнаружения. Если несколько эффектов одинаково сильны, то Мастер решает о котором из них вы узнаете.</span>
+            </div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (4-й):</b> <span>Как 3-го уровня, но вы еще точнее определяете источник магии самого высокого уровня. Вы все еще не определяете абсолютно точное местоположение, как если бы использовали неточное чувство, но можете локализовать источник до 5-футового куба (или ближайшего, если источник большего размера).</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Разрушение нежити -->
+<div class="spell-card">
+    <div class="spell-header" onclick="toggleSpell(this)">
+        <div class="spell-title">
+            <i class="spell-icon fas fa-skull"></i> Разрушение нежити
+            <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                <i class="fas fa-check"></i>
+            </div>
+        </div>
+        <div class="spell-focus">Чары 1</div>
+    </div>
+    <div class="spell-description">Вы пронзаете цель энергией.</div>
+    <div class="spell-expandable">
+        <div class="spell-tags"><div class="tag"><i class="fas fa-skull"></i>Некромантия</div><div class="tag"><i class="fas fa-sun"></i>Позитивный</div></div>
+        <div class="spell-details">
+            <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>сакральный, природный</span></div>
+            <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+            <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+            <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо нежить</span></div>
+            <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Защита:</b> <span>Стойкость</span></div>
+            <div class="divider"></div>
+            
+            <div class="spell-effect">
+                <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                Вы пронзаете цель энергией. Вы наносите позитивного урон равный 1d6 + ваш модификатор характеристики колдовства. Цель должна совершить простой спасбросок Стойкости. Если существо критически проваливает спасбросок, оно еще на 1 раунд получает состояние ослаблен 1.
+                <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="enhancement">
+                <b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон увеличивается на 1d6.</span>
+            </div>
+        </div>
+    </div>
+</div>
             <!-- Электрическая дуга -->
             <div class="spell-card">
                 <div class="spell-header" onclick="toggleSpell(this)">
