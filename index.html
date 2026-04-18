@@ -5635,6 +5635,153 @@
                 </div>
             </div>
         </div>
+                    <!-- Чаша пыли -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-tint"></i> Чаша пыли
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Проклинает цель жаждой, которую не может утолить никакое питье.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-skull"></i> Некромантия</div><div class="tag"><i class="fas fa-curse"></i> Проклятие</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, оккультный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 живое существо</span></div>
+                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Стойкость</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 день</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы проклинаете цель жаждой, которую не может утолить никакое питье. Вы можете Развеять (Dismiss) это заклинание. Цель должна совершить спасбросок Стойкости.
+
+Критический успех: Существо невредимо и временно иммунно на 1 час
+
+Успех: Существо получает состояние утомлен на 1 раунд
+
+Провал: Существо немедленно страдает от жажды, как будто оно не пило в течение нескольких дней. Оно получает состояние утомлен и каждый час 1d4 урона, который не может быть исцелен, пока оно не утолит жажду. Любое количество питья не может утолить жажду существа во время продолжительности заклинания.
+
+Критический провал: Как провал, но существо получает 2d4 урона каждый час, в два раза сильнее чем от жажды
+
+Усиление (+3): Жажда становится еще более невыносимой, увеличивая ежечасный урон на 1d4 или на 2d4 при крит.провале.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Зыбучий песок -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-mountain"></i> Зыбучий песок
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Заставляет поверхность вспучиться.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div><div class="tag"><i class="fas fa-mountain"></i> Земля</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Область:</b> <span>20-футовый взрыв</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>поддерживаемое вплоть до 1 минуты</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы заставляете поверхность вспучиться. Область становится сложной местностью и любые следы в области уничтожаются перемешанной землей. Существа стоящие в области получают штраф состояния -1 к проверкам Акробатики для Балансировать (Balance) и Проскочить (Tumble Through) , и проверок Атлетики для Прыжок в высоту (High Jump) и Прыжок в длину (Long Jump) . Когда вы Поддерживаете (Sustain) это заклинание первый раз в раунд, то можете сдвинуть область вплоть до 10 футов в любом направлении. Существа, имеющие состояние обездвижен от этого заклинания, перемещаются вместе с зыбучим песком в том же направлении, если это возможно; это принудительное передвижение). Существа, которые попадают в области или начинают в ней свой ход должны совершить спасбросок Рефлекса.
+
+Критический успех: Существо невредимо и игнорирует сложную местность области и штраф к проверкам навыков до конца своего хода
+
+Успех: Существо игнорирует штрафы к проверкам навыков в области до конца своего хода
+
+Провал: Существо подвержено обычным эффектам в этот ход
+
+Критический провал: Существо получает получает состояние обездвижен от области заклинания пока не сможет Вырваться (Escape) . Если существо уже имело состояние обездвижен из-за зыбучего песка, оно еще падает ничком.
+
+Усиление (5-й): Штраф состояния увеличивается до -2 и дальность заклинания увеличивается до 60 футов.
+
+Усиление (7-й): Штраф состояния увеличивается до -3, дальность заклинания увеличивается до 60 футов, и область заклинания увеличивается до 30-футового взрыва.
+
+Усиление (9-й): Штраф состояния увеличивается до -4, дальность заклинания увеличивается до 60 футов, и область заклинания увеличивается до 40-футового взрыва.
+
+Изменено в версии /errata-LOGM-2: Исправлено предложение про Поддержание заклинания. Добавлено "первый раз в раунд", иначе можно было двигать песок его вплоть до 3 раз.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Указать путь -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-road"></i> Указать путь
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Вы и союзники получаете сверхъестественные знания о предстоящем пути.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-eye"></i> Прорицание</div><div class="tag"><i class="fas fa-search"></i> Обнаружение</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>сакральный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Область:</b> <span>5-футовая эманация</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>вы и союзники в области</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>8 часов</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы и подверженные заклинанию союзники получаете сверхъестественные знания о предстоящем пути, что позволяет вам интуитивно выбирать наилучший путь вперед и избегать потенциальных препятствий, таких как сложная или запутанная местность. Для целей дальних сухопутных путешествий в режиме исследования, путешествие по сложной местности уменьшает вашу Скорость только до 3/4 вместо 1/2, а путешествие по особо сложной местности уменьшает вашу Скорость только до 1/2 вместо 1/3. Указать путь не препятствует вашему попаданию в ловушки или столкновению с другими искусственными препятствиями и опасностями.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="divider"></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (6-й):</b> <span>Для целей дальних сухопутных путешествий в режиме исследования, путешествие по сложной местности местности совсем не уменьшает вашу Скорость, а путешествие по особо сложной местности уменьшает вашу Скорость только до 3/4 вместо 1/3.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Стена ветра -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-wind"></i> Стена ветра
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Создает стену порывистого ветра, которая мешает движению и дистанционным атакам.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-cloud"></i> Воздух</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>120 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Область:</b> <span>стена 60×30 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы создаете барьер из порывистого ветра, который мешает всему, что движется через него. Стена ветра имеет толщину 5 футов, длину 60 футов и высоту 30 футов. Стена стоит вертикально, но вы можете сформировать ее путь. Хотя стена ветра искажает воздух, она не мешает зрению. Стена обладает следующими эффектами.
+
+Снаряды от физических дальнобойных атак, такие как стрелы, болты, пули пращи, и другие объекты похожего размера, не могут пройти сквозь стену. Атаки дистанционным оружием бо́льшего размера, таким как метательные копья, получают штраф обстоятельства -2 к броскам атак, если траектория проходит через стену. Массивное оружие дальнего боя и эффекты заклинаний, которые не создают физических объектов, проходят сквозь стену без штрафа.
+
+Стена является сложной местностью для существ, пытающихся передвигаться по ней по земле. Газы, включая существ в газообразной форме, не могут пройти через стену.
+
+Существо пытающееся пролететь через стену должно совершить спасбросок Стойкости.
+
+Критический успех: Существо может нормально двигаться через стену в этот ход
+
+Успех: Летающее существо может двигаться через стену в этот ход, но считает стену сложной местностью
+
+Провал: Стена останавливает движение летающего существа и любое оставшееся передвижение от его текущего действия тратится впустую
+
+Критический провал: Как провал, и существо отталкивается на 10 футов назад от стены<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         </div> <!-- Конец Круг 3 -->
 
     </div> <!-- Конец content-wrapper -->
