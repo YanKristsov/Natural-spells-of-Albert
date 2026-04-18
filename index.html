@@ -539,7 +539,10 @@
                 </div>
                 <div class="spell-description">Превращает кусочек металла в иглы и выпускает их в противника.</div>
                 <div class="spell-expandable">
-                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i>Атака</div><div class="tag"><i class="fas fa-gem"></i>Металл</div><div class="tag"><i class="fas fa-bolt"></i>Чары</div><div class="tag"><i class="fas fa-bolt"></i>Концентрация</div><div class="tag"><i class="fas fa-bolt"></i>Воздействие</div></div>
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i>Атака</div>
+                    <div class="tag"><i class="fas fa-gem"></i>Металл</div>
+                    <div class="tag"><i class="fas fa-bolt"></i>Концентрация</div>
+                    <div class="tag"><i class="fas fa-bolt"></i>Воздействие</div></div>
                     <div class="spell-details">
                         <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, оккультный, сакральный, природный</span></div>
                         <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
@@ -570,6 +573,70 @@
                 </div>
             </div>
         </div>
+        
+            <div class="spells-container">
+    <div class="spell-card">
+        <div class="spell-header" onclick="toggleSpell(this)">
+            <div class="spell-title">
+                <i class="spell-icon fas fa-calculator"></i> Аппроксимация
+                       <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+            </div>
+	</div>
+            <div class="spell-focus">Чары</div>
+        </div>
+        
+        <div class="spell-description">
+            Магически подсчитывает примерное количество объектов поблизости.
+        </div>
+        
+        <div class="spell-expandable">
+            <div class="spell-tags">
+                <div class="tag"><i class="fas fa-eye"></i> Прорицание</div>
+                <div class="tag"><i class="fas fa-search"></i> Обнаружение</div>
+            </div>
+            
+            <div class="spell-details">
+                <div class="spell-info">
+                    <b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный, природный</span>
+                </div>
+                
+                <div class="spell-info">
+                    <b><i class="fas fa-magic"></i> Сотворение:</b> 
+                    <span class="components-row">
+                        <span class="arrow-block" style="
+                        width: 42px;
+                        ">▶▶</span>
+                        
+                        <span class="component">
+                            <i class="fas fa-comment"></i> словесный
+                        </span>
+                        <span class="component">
+                            <i class="fas fa-hand-sparkles"></i> жестовый
+                        </span>
+                    </span>
+                </div>
+                
+                <div class="spell-info">
+                    <b><i class="fas fa-ruler"></i> Дистанция:</b> <span>10 футов</span>
+                </div>
+                
+                <div class="spell-info">
+                    <b><i class="fas fa-vector-square"></i> Область:</b> <span>1 кубический фут</span>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <div class="spell-effect">
+                    <i class="fas fa-quote-left" style="color: #94a3b8; margin-right: 5px;"></i>
+                    Ваша магия быстро протекает по области, помогая вам вести подсчет и каталогизацию. Назовите конкретный вид объекта, который вы ищете в данной области. Вы получаете мгновенный подсчет примерного количества выбранных объектов, которые хорошо видны в пределах целевой области. Число округляется до наибольшей цифры. Например, вы можете посмотреть на стопку 180 медных монет и узнать, что в ней содержится около 200 монет, но вы не сможете определить, что там в точности 180 монет.
+                    Вид называемого вами объекта может быть как весьма конкретным, так и обобщенным - одинаково применимо как "медные монеты с вмятинами" так и "монеты", но отличительные черты должны быть очевидны с первого взгляда, а заклинание автоматически будет обмануто объектами замаскированными под другие. Например, заклинание обнаружило бы медные монеты покрытые золотом, как золотые, а не медные.
+                    <i class="fas fa-quote-right" style="color: #94a3b8; margin-left: 5px;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
             <!-- Штормовой взрыв -->
             <div class="spell-card">
                 <div class="spell-header" onclick="toggleSpell(this)">
