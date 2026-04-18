@@ -5083,7 +5083,558 @@
                     </div>
                 </div>
             </div>
+                 <!-- Чаша пыли -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-tint"></i> Чаша пыли
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Проклинает цель жаждой, которую не может утолить никакое питье.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-skull"></i> Некромантия</div><div class="tag"><i class="fas fa-curse"></i> Проклятие</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, оккультный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 живое существо</span></div>
+                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Стойкость</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 день</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Цель страдает от неутолимой жажды. При провале получает утомлен и 1d4 урона каждый час. Питье не помогает.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+3):</b> <span>Ежечасный урон +1d4 (+2d4 при крит.провале).</span></div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Зыбучий песок -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-mountain"></i> Зыбучий песок
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Заставляет поверхность вспучиться.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div><div class="tag"><i class="fas fa-mountain"></i> Земля</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Область:</b> <span>20-футовый взрыв</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>поддерживаемое до 1 минуты</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Область становится сложной местностью. Существа в области получают штраф -1 к Акробатике и Атлетике. Поддержанием можно двигать область.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (5-й):</b> <span>Штраф -2, дистанция 60 футов.</span></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (7-й):</b> <span>Штраф -3, область 30 футов.</span></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (9-й):</b> <span>Штраф -4, область 40 футов.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Указать путь -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-road"></i> Указать путь
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Вы и союзники получаете сверхъестественные знания о предстоящем пути.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-eye"></i> Прорицание</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>сакральный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">10 минут</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>вы и союзники в 5-футовой эманации</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>8 часов</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы уменьшаете штрафы за передвижение по сложной местности в дальних путешествиях.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (6-й):</b> <span>Еще сильнее уменьшает штрафы.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Животный взор -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-eye"></i> Животный взор
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Проецируете свои сенсорные чувства на животное.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-eye"></i> Прорицание</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">1 минута</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 животное</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 час</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы можете использовать чувства животного. Ваше тело при этом без сознания.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Слепота -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-eye-slash"></i> Слепота
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Поражает цель слепотой.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-skull"></i> Некромантия</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Стойкость</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Цель становится слепой. Провал: 1 минута. Крит.провал: постоянно.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Земные оковы -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-magnet"></i> Земные оковы
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Опускает летающее существо на землю.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>120 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 летающее существо</span></div>
+                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Стойкость</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Цель опускается на 60 футов вниз (если не достигла земли). При провале она не может летать 1 минуту.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ноги-ласты -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-fish"></i> Ноги-ласты
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Превращает ноги существа в ласты, позволяя ему плавать, но замедляя на суше.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>10 минут</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Цель получает Скорость плавания 20 футов, но Скорость на суше уменьшается на 5 футов.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Огненный шар -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-fire"></i> Огненный шар
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Взрыв огня в области сжигает существ.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-fire"></i> Огонь</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>500 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Область:</b> <span>20-футовый взрыв</span></div>
+                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>простой Рефлекс</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Огненный шар наносит 6d6 огненного урона.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон +2d6.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Охранный глиф -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-draw-polygon"></i> Охранный глиф
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Сохраняет заклинание в символе, чтобы сделать ловушку.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-shield-alt"></i> Преграждение</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">10 минут</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 контейнер или область 10×10 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>неограниченно</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы сохраняете враждебное заклинание в глифе. Оно срабатывает, когда существо входит в область или открывает контейнер.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ускорение -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-running"></i> Ускорение
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Ускоряет существо, так что оно может чаще атаковать или двигаться.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Цель получает состояние ускорен и может использовать дополнительное действие на Удар, Перемещение или Шаг.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Форма насекомого -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-bug"></i> Форма насекомого
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Превращает в опасное гигантское насекомое.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div><div class="tag"><i class="fas fa-mask"></i> Полиморф</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы превращаетесь в насекомое (скорпион, паук, оса). Получаете соответствующие атаки, Скорость и КБ 21.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (4-й):</b> <span>Форма 4-го уровня.</span></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (5-й):</b> <span>Форма 5-го уровня.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Удар молнии -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-bolt"></i> Удар молнии
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Молния ударяет всех существ в линии.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-bolt"></i> Электричество</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Область:</b> <span>120-футовая линия</span></div>
+                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>простой Рефлекс</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Молния наносит 4d12 урона электричеством.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон +1d12.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Слияние с камнем -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-mountain"></i> Слияние с камнем
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Сливаетесь с каменным блоком.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div><div class="tag"><i class="fas fa-mountain"></i> Земля</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">1 минута</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>10 минут</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы сливаетесь с каменным блоком. Вы можете слышать, но не видеть. Выход действием.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нейтрализация яда -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-vial"></i> Нейтрализация яда
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Исцеляет яд действующий на существо.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-skull"></i> Некромантия</div><div class="tag"><i class="fas fa-heart"></i> Исцеление</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>сакральный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы пытаетесь противодействовать одному яду на цели.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Необнаружимость -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-eye-slash"></i> Необнаружимость
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Защищает существо или объект от магического обнаружения.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-star"></i> Необычный</div><div class="tag"><i class="fas fa-shield-alt"></i> Преграждение</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, сакральный, оккультный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">10 минут</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо или объект</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>8 часов</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Цель защищена от магического обнаружения. Попытки противодействуют с большим КС.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (6-й):</b> <span>Продолжительность до ежедневных приготовлений.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Исцеление болезни -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-stethoscope"></i> Исцеление болезни
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Исцеляет болезнь действующую на существо.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-skull"></i> Некромантия</div><div class="tag"><i class="fas fa-heart"></i> Исцеление</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>сакральный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">10 минут</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>касание</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Вы пытаетесь противодействовать одной болезни на цели.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Палящий свет -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-sun"></i> Палящий свет
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Луч жгучего света наносит дополнительный урон нежити и бесам, а так же противодействует тьме.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-fire"></i> Огонь</div><div class="tag"><i class="fas fa-dove"></i> Добро</div><div class="tag"><i class="fas fa-lightbulb"></i> Свет</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>сакральный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>120 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Атака заклинанием, 5d6 огненного урона (+5d6 добра против бесов и нежити). Противодействует тьме.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон огнем +2d6, добром +2d6.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Замедление -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-hourglass-half"></i> Замедление
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Замедляет существо, уменьшая количество его действий.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-exchange-alt"></i> Трансмутация</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Цели:</b> <span>1 существо</span></div>
+                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Стойкость</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Цель получает состояние замедлен 1. При крит.провале — замедлен 2.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Зловонное облако -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-cloud"></i> Зловонное облако
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Образует облако, которое вызывает тошноту существ.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-hand-sparkles"></i> Воплощение</div><div class="tag"><i class="fas fa-skull"></i> Яд</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>120 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-bullseye"></i> Область:</b> <span>20-футовый взрыв</span></div>
+                        <div class="spell-info"><b><i class="fas fa-shield-alt"></i> Спасбросок:</b> <span>Стойкость</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Облако вызывает тошноту. Существа, начинающие ход в облаке, получают состояние тошнота 1 (Стойкость).<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Терновая стена -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-plant"></i> Терновая стена
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Выращивает стену колючих лиан.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-hand-sparkles"></i> Воплощение</div><div class="tag"><i class="fas fa-plant"></i> Растение</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>30 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-vector-square"></i> Область:</b> <span>стена до 60 футов длины и 10 футов высоты</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Стена из колючих лиан. Существа, проходящие через нее, получают 2d4 колющего урона. Это сложная местность.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                        <div class="enhancement"><b><i class="fas fa-level-up-alt"></i> Усиление (+1):</b> <span>Урон +1d4.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Стена ветра -->
+            <div class="spell-card">
+                <div class="spell-header" onclick="toggleSpell(this)">
+                    <div class="spell-title">
+                        <i class="spell-icon fas fa-wind"></i> Стена ветра
+                        <div class="check-button" onclick="event.stopPropagation(); toggleCheck(this)">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="spell-focus">Круг 3</div>
+                </div>
+                <div class="spell-description">Создает стену порывистого ветра, которая мешает движению и дистанционным атакам.</div>
+                <div class="spell-expandable">
+                    <div class="spell-tags"><div class="tag"><i class="fas fa-bolt"></i> Эвокация</div><div class="tag"><i class="fas fa-cloud"></i> Воздух</div></div>
+                    <div class="spell-details">
+                        <div class="spell-info"><b><i class="fas fa-book"></i> Обычай:</b> <span>арканный, природный</span></div>
+                        <div class="spell-info"><b><i class="fas fa-magic"></i> Сотворение:</b> <span class="components-row"><span class="arrow-block" style="width:42px;">▶▶</span><span class="component"><i class="fas fa-hand-sparkles"></i> жестовый</span><span class="component"><i class="fas fa-comment"></i> словесный</span><span class="component"><i class="fas fa-gem"></i> материальный</span></span></div>
+                        <div class="spell-info"><b><i class="fas fa-ruler"></i> Дистанция:</b> <span>120 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-vector-square"></i> Область:</b> <span>стена 60×30 футов</span></div>
+                        <div class="spell-info"><b><i class="fas fa-clock"></i> Продолжительность:</b> <span>1 минута</span></div>
+                        <div class="divider"></div>
+                        <div class="spell-effect"><i class="fas fa-quote-left" style="color:#94a3b8; margin-right:5px;"></i>Стена ветра блокирует снаряды, дает штраф -2 к атакам метательным оружием. Сложная местность для полетов.<i class="fas fa-quote-right" style="color:#94a3b8; margin-left:5px;"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div> <!-- Конец Круг 3 -->
 
     </div> <!-- Конец content-wrapper -->
